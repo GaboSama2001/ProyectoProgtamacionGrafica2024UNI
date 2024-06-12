@@ -1,3 +1,3 @@
-# ProyectoProgtamacionGrafica2024UNI
+# Proyecto Programación Gráfica 2024 UNI
 
-Proyecto de Programaci�n Gr�fica
+Proyecto de Programación Gráfica
