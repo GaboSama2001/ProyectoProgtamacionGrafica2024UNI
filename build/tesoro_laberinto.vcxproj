@@ -114,7 +114,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>include\glfw\src\Debug\glfw3d.lib;opengl32.lib;include\assimp\lib\Debug\assimp-vc143-mtd.lib;include\assimp\contrib\zlib\Debug\zlibstaticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glfw3.lib</AdditionalDependencies>
+      <AdditionalDependencies>include\glfw\src\Debug\glfw3d.lib;opengl32.lib;include\assimp\lib\Debug\assimp-vc143-mtd.lib;include\assimp\contrib\zlib\Debug\zlibstaticd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glfw3.lib;glfw3d.lib;glfw3.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\MSI GF65\source\repos\Ejemplo\Dependencies\GLFW\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -157,7 +157,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>include\glfw\src\Release\glfw3.lib;opengl32.lib;include\assimp\lib\Release\assimp-vc143-mt.lib;include\assimp\contrib\zlib\Release\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glfw3.lib</AdditionalDependencies>
+      <AdditionalDependencies>include\glfw\src\Release\glfw3.lib;opengl32.lib;include\assimp\lib\Release\assimp-vc143-mt.lib;include\assimp\contrib\zlib\Release\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glfw3.lib;glfw3d.lib;glfw3.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\MSI GF65\source\repos\Ejemplo\Dependencies\GLFW\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /SUBSYSTEM:windows</AdditionalOptions>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
@@ -201,7 +201,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>include\glfw\src\MinSizeRel\glfw3.lib;opengl32.lib;include\assimp\lib\MinSizeRel\assimp-vc143-mt.lib;include\assimp\contrib\zlib\MinSizeRel\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glfw3.lib</AdditionalDependencies>
+      <AdditionalDependencies>include\glfw\src\MinSizeRel\glfw3.lib;opengl32.lib;include\assimp\lib\MinSizeRel\assimp-vc143-mt.lib;include\assimp\contrib\zlib\MinSizeRel\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glfw3.lib;glfw3d.lib;glfw3.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\MSI GF65\source\repos\Ejemplo\Dependencies\GLFW\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /SUBSYSTEM:windows</AdditionalOptions>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
@@ -244,7 +244,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>include\glfw\src\RelWithDebInfo\glfw3.lib;opengl32.lib;include\assimp\lib\RelWithDebInfo\assimp-vc143-mt.lib;include\assimp\contrib\zlib\RelWithDebInfo\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glfw3.lib</AdditionalDependencies>
+      <AdditionalDependencies>include\glfw\src\RelWithDebInfo\glfw3.lib;opengl32.lib;include\assimp\lib\RelWithDebInfo\assimp-vc143-mt.lib;include\assimp\contrib\zlib\RelWithDebInfo\zlibstatic.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;glfw3.lib;glfw3d.lib;glfw3.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\Users\MSI GF65\source\repos\Ejemplo\Dependencies\GLFW\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 /SUBSYSTEM:windows</AdditionalOptions>
       <EntryPointSymbol>mainCRTStartup</EntryPointSymbol>
