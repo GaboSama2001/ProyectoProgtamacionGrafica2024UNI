@@ -1,7 +1,7 @@
-prefix=C:/Program Files (x86)/radio_silence
+prefix=C:/Program Files (x86)/tesoro_laberinto
 exec_prefix=${prefix}
-includedir=C:/Program Files (x86)/radio_silence/include
-libdir=C:/Program Files (x86)/radio_silence/lib
+includedir=C:/Program Files (x86)/tesoro_laberinto/include
+libdir=C:/Program Files (x86)/tesoro_laberinto/lib
 
 Name: GLFW
 Description: A multi-platform library for OpenGL, window and input

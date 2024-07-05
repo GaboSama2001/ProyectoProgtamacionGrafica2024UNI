@@ -1,0 +1,28 @@
+#
+#
+#
+
+newmtl Malla de 12337_Statue_Shiva_body_12337_Statue_Shiva_body
+illum 2
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.450000 0.450000 0.450000
+Ns 45.000000
+map_Kd 12337_Statue_Shiva_body_diff.jpg
+
+newmtl Malla de 12337_Statue_Shiva_decoration_12337_Statue_Shiva_decoration
+illum 2
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ns 45.000000
+map_Kd 12337_Statue_Shiva_decoration_diff.jpg
+
+newmtl Malla de 12337_Statue_Shiva_platform_12337_Statue_Shiva_platform
+illum 2
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ns 10.000000
+map_Kd 12337_Statue_Shiva_platform_diff.jpg
+

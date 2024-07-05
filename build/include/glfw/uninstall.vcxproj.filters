@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Loluo\source\repos\RadioSilence\build\CMakeFiles\004e8724f594a3b1d67253e45ed38845\uninstall.rule">
+    <CustomBuild Include="C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\CMakeFiles\5bd326887f53c1ee2bcd24ac59058e2a\uninstall.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="C:\Users\Loluo\source\repos\RadioSilence\include\glfw\CMakeLists.txt" />
+    <CustomBuild Include="C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\glfw\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="C:\Users\Loluo\source\repos\RadioSilence\build\include\glfw\CMakeFiles\uninstall" />
+    <None Include="C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\glfw\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{51DA19D5-5824-3179-BA91-F7631ED2B35C}</UniqueIdentifier>
+      <UniqueIdentifier>{756F80A1-7FBA-388B-BCE7-1E4CFF9AC079}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

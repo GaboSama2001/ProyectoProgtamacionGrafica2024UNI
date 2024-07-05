@@ -25,12 +25,12 @@ public:
 
         // Rutas a las texturas del cubemap
         std::vector<std::string> caras = {
-            "../ProyectoProgtamacionGrafica2024UNI/assets/textures/skybox/right.jpg",
-            "../ProyectoProgtamacionGrafica2024UNI/assets/textures/skybox/left.jpg",
-            "../ProyectoProgtamacionGrafica2024UNI/assets/textures/skybox/top.jpg",
-            "../ProyectoProgtamacionGrafica2024UNI/assets/textures/skybox/bottom.jpg",
-            "../ProyectoProgtamacionGrafica2024UNI/assets/textures/skybox/front.jpg",
-            "../ProyectoProgtamacionGrafica2024UNI/assets/textures/skybox/back.jpg"
+            "../assets/textures/skybox/right.jpg",
+            "../assets/textures/skybox/left.jpg",
+            "../assets/textures/skybox/top.jpg",
+            "../assets/textures/skybox/bottom.jpg",
+            "../assets/textures/skybox/front.jpg",
+            "../assets/textures/skybox/back.jpg"
         };
 
         // Imprimir rutas de archivos para depuración

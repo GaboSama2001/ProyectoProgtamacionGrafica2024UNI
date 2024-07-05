@@ -1,0 +1,36 @@
+#
+#
+#
+
+newmtl Malla de 12140_Skull_v3_12140_Skull_v3
+illum 2
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.117000 0.117000 0.117000
+Ns 24.000000
+map_Kd Skull.jpg
+
+newmtl Malla de 12140_Skull_v3_jaw_12140_Skull_v3
+illum 2
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.117000 0.117000 0.117000
+Ns 24.000000
+map_Kd Skull.jpg
+
+newmtl Malla de 12140_Skull_v3_teeth_12140_Skull_v3
+illum 2
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.117000 0.117000 0.117000
+Ns 24.000000
+map_Kd Skull.jpg
+
+newmtl Malla de 12140_Skull_v3_teeth_lower_12140_Skull_v3
+illum 2
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.117000 0.117000 0.117000
+Ns 24.000000
+map_Kd Skull.jpg
+

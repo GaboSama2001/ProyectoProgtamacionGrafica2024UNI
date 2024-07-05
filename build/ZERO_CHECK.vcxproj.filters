@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\CMakeFiles\a9105f3d526aa5dfb77c994945b36ff8\generate.stamp.rule">
+    <CustomBuild Include="C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\CMakeFiles\69d92e05a23e68ab9c166585d9d469ce\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{AAB74D5C-0924-3784-AC30-FD2A5FB48321}</UniqueIdentifier>
+      <UniqueIdentifier>{756F80A1-7FBA-388B-BCE7-1E4CFF9AC079}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

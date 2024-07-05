@@ -25,7 +25,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4619DBB9-9505-3AC5-B851-1BC527F2096E}</ProjectGuid>
+    <ProjectGuid>{A5406CAD-3839-3AEE-8F2B-A6626E6E0375}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
@@ -69,7 +69,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\code;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\.;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\include;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\.;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -79,7 +79,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\code;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\.;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\include;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\.;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -89,7 +89,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\code;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\.;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\include;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\.;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -99,7 +99,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\code;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\.;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\include;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\.;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -108,11 +108,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Loluo/source/repos/RadioSilence/include/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/RadioSilence -BC:/Users/Loluo/source/repos/RadioSilence/build --check-stamp-file C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI -BC:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/build --check-stamp-file C:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -120,12 +120,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Loluo/source/repos/RadioSilence/include/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/RadioSilence -BC:/Users/Loluo/source/repos/RadioSilence/build --check-stamp-file C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI -BC:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/build --check-stamp-file C:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -133,12 +133,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Loluo/source/repos/RadioSilence/include/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/RadioSilence -BC:/Users/Loluo/source/repos/RadioSilence/build --check-stamp-file C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI -BC:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/build --check-stamp-file C:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -146,12 +146,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Loluo/source/repos/RadioSilence/include/assimp/contrib/zlib/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/contrib/zlib/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/RadioSilence -BC:/Users/Loluo/source/repos/RadioSilence/build --check-stamp-file C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/contrib/zlib/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI -BC:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/build --check-stamp-file C:/Users/Loluo/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/contrib/zlib/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -159,22 +159,22 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\CheckCSourceCompiles.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib\zconf.h.cmakein;C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib\zlib.pc.cmakein;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\Loluo\source\repos\RadioSilence\build\ZERO_CHECK.vcxproj">
-      <Project>{FD1A0ACC-3F4E-388D-8B79-528DE7E3EF50}</Project>
+    <ProjectReference Include="C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\ZERO_CHECK.vcxproj">
+      <Project>{1F47FF30-E877-37FA-B483-CE837FE5B610}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib\zlibstatic.vcxproj">
-      <Project>{64E6E985-3214-337C-BA48-D132093F8EE3}</Project>
+    <ProjectReference Include="C:\Users\Loluo\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib\zlibstatic.vcxproj">
+      <Project>{4169C1E9-0158-3B9C-9CEB-E1D33B6A342B}</Project>
       <Name>zlibstatic</Name>
     </ProjectReference>
   </ItemGroup>
