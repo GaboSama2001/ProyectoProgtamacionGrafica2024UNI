@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\formas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\modelo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\escena_juego.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\menu_escena.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\creditos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\constructor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\instrucciones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\textura.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\miscelaneos.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{89DD812F-44BD-3F9A-BCF7-27277B2782AC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

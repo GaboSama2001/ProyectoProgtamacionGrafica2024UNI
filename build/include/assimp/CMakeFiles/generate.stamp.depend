@@ -1,0 +1,15 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake
+C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/CMakeLists.txt
+C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/assimp.pc.in
+C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/cmake-modules/FindPkgMacros.cmake
+C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/cmake-modules/PrecompiledHeader.cmake
+C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/cmake-modules/assimp-plain-config.cmake.in
+C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/include/assimp/config.h.in
+C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/revision.h.in

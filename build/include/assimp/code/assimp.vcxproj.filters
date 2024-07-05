@@ -1,0 +1,1982 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\CApi\CInterfaceIOWrapper.cpp">
+      <Filter>CApi</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Compression.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\IOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\ZipArchiveIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\scene.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Bitmap.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Version.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\CreateAnimMesh.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\simd.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\material.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\AssertHandler.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Exceptional.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Base64.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Geometry\GeometryUtils.cpp">
+      <Filter>Geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\CApi\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\EmbedTexturesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\DropFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ScaleProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ArmaturePopulate.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\GenBoundingBoxesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\SplitByBoneCountProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Material\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\STEPParser\STEPFileReader.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\STEPParser\STEPFileEncoding.cpp">
+      <Filter>STEPParser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\AMF\AMFImporter.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\AMF\AMFImporter_Geometry.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\AMF\AMFImporter_Material.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\AMF\AMFImporter_Postprocess.cpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3DS\3DSConverter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3DS\3DSLoader.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\AC\ACLoader.cpp">
+      <Filter>AssetLib\AC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\ASE\ASELoader.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\ASE\ASEParser.cpp">
+      <Filter>AssetLib\ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assbin\AssbinLoader.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\B3D\B3DImporter.cpp">
+      <Filter>AssetLib\B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\BVH\BVHLoader.cpp">
+      <Filter>AssetLib\BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Collada\ColladaHelper.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Collada\ColladaLoader.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Collada\ColladaParser.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\DXF\DXFLoader.cpp">
+      <Filter>AssetLib\DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\CSM\CSMLoader.cpp">
+      <Filter>AssetLib\CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\HMP\HMPLoader.cpp">
+      <Filter>AssetLib\HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Irr\IRRMeshLoader.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Irr\IRRShared.cpp">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IQM\IQMImporter.cpp">
+      <Filter>AssetLib\IQM</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Irr\IRRLoader.cpp">
+      <Filter>AssetLib\IRR</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\LWO\LWOAnimation.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\LWO\LWOBLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\LWO\LWOLoader.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\LWO\LWOMaterial.cpp">
+      <Filter>AssetLib\LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\LWS\LWSLoader.cpp">
+      <Filter>AssetLib\LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\M3D\M3DImporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\M3D\M3DWrapper.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD2\MD2Loader.cpp">
+      <Filter>AssetLib\MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD3\MD3Loader.cpp">
+      <Filter>AssetLib\MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD5\MD5Loader.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD5\MD5Parser.cpp">
+      <Filter>AssetLib\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDC\MDCLoader.cpp">
+      <Filter>AssetLib\MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\MDLMaterialLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\HL1MDLLoader.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.cpp">
+      <Filter>AssetLib\MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\NFF\NFFLoader.cpp">
+      <Filter>AssetLib\NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\NDO\NDOLoader.cpp">
+      <Filter>AssetLib\NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\OFF\OFFLoader.cpp">
+      <Filter>AssetLib\OFF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjFileImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjFileMtlImporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjFileParser.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreImporter.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreStructs.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreBinarySerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreXmlSerializer.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreMaterial.cpp">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\OpenGEX\OpenGEXImporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ply\PlyLoader.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ply\PlyParser.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MS3D\MS3DLoader.cpp">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\COB\COBLoader.cpp">
+      <Filter>AssetLib\COB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderLoader.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderDNA.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderScene.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderModifier.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderBMesh.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderTessellator.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderCustomData.cpp">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCLoader.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCReaderGen1_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCReaderGen2_2x3.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCUtil.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCGeometry.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCMaterial.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCProfile.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCCurve.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCBoolean.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCOpenings.cpp">
+      <Filter>AssetLib\IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\XGL\XGLLoader.cpp">
+      <Filter>AssetLib\XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXImporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXParser.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXConverter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXDocument.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXProperties.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXMeshGeometry.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXMaterial.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXModel.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXAnimation.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXNodeAttribute.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXDeformer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXBinaryTokenizer.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXDocumentUtil.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Q3D\Q3DLoader.cpp">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Q3BSP\Q3BSPFileParser.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Q3BSP\Q3BSPFileImporter.cpp">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Raw\RawLoader.cpp">
+      <Filter>AssetLib\RAW</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\SIB\SIBImporter.cpp">
+      <Filter>AssetLib\SIB</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\SMD\SMDLoader.cpp">
+      <Filter>AssetLib\SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\STL\STLLoader.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Terragen\TerragenLoader.cpp">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Unreal\UnrealLoader.cpp">
+      <Filter>AssetLib\3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X\XFileImporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X\XFileParser.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Geometry2D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Geometry3D.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Group.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Light.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Metadata.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Networking.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Postprocess.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Rendering.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Shape.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Texturing.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DGeoHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DXmlHelper.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFCommon.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFImporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF2\glTF2Importer.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\XmlSerializer.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\D3MFImporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\D3MFOpcPackage.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MMD\MMDImporter.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MMD\MMDPmxParser.cpp">
+      <Filter>AssetLib\MMD</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjExporter.cpp">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\OpenGEX\OpenGEXExporter.cpp">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ply\PlyExporter.cpp">
+      <Filter>AssetLib\PLY</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3DS\3DSExporter.cpp">
+      <Filter>AssetLib\3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assbin\AssbinExporter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assbin\AssbinFileWriter.cpp">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assxml\AssxmlExporter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assxml\AssxmlFileWriter.cpp">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\M3D\M3DExporter.cpp">
+      <Filter>AssetLib\M3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Collada\ColladaExporter.cpp">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXExporter.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXExportNode.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXExportProperty.cpp">
+      <Filter>AssetLib\FBX</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\STL\STLExporter.cpp">
+      <Filter>AssetLib\STL</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X\XFileExporter.cpp">
+      <Filter>AssetLib\X</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DExporter.cpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFExporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF2\glTF2Exporter.cpp">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\D3MFExporter.cpp">
+      <Filter>AssetLib\3MF</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Pbrt\PbrtExporter.cpp">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assjson\cencode.c">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assjson\json_exporter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assjson\mesh_splitter.cpp">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Step\StepExporter.cpp">
+      <Filter>AssetLib\STEP</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\unzip\ioapi.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\unzip\unzip.c">
+      <Filter>Contrib\unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\clipper\clipper.cpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\code\OpenDDLParser.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\code\DDLNode.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\code\OpenDDLCommon.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\code\OpenDDLExport.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\code\Value.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\code\OpenDDLStream.cpp">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcTools.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcTriangleFans.cpp">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zip\src\zip.c">
+      <Filter>ziplib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\CApi\CInterfaceIOWrapper.h">
+      <Filter>CApi</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\StbCommon.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Compression.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\PolyTools.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Maybe.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\StackAllocator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\StackAllocator.inl">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\simd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Geometry\GeometryUtils.h">
+      <Filter>Geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\DefaultLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\LogStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Logger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\NullLogger.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Common\StdOStreamLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\BlobIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\EmbedTexturesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\DropFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ScaleProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\ArmaturePopulate.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\GenBoundingBoxesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\PostProcessing\SplitByBoneCountProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Material\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\STEPParser\STEPFileReader.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\STEPParser\STEPFileEncoding.h">
+      <Filter>STEPParser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\AMF\AMFImporter.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\AMF\AMFImporter_Node.hpp">
+      <Filter>AssetLib\AMF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3DS\3DSHelper.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3DS\3DSLoader.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\AC\ACLoader.h">
+      <Filter>AssetLib\AC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\ASE\ASELoader.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\ASE\ASEParser.h">
+      <Filter>AssetLib\ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assbin\AssbinLoader.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\B3D\B3DImporter.h">
+      <Filter>AssetLib\B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\BVH\BVHLoader.h">
+      <Filter>AssetLib\BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Collada\ColladaHelper.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Collada\ColladaLoader.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Collada\ColladaParser.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\DXF\DXFLoader.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\DXF\DXFHelper.h">
+      <Filter>AssetLib\DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\CSM\CSMLoader.h">
+      <Filter>AssetLib\CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\HMP\HMPFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\HMP\HMPLoader.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\HMP\HalfLifeFileData.h">
+      <Filter>AssetLib\HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Irr\IRRMeshLoader.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Irr\IRRShared.h">
+      <Filter>AssetLib\IRRMESH</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IQM\iqm.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IQM\IQMImporter.h">
+      <Filter>AssetLib\IQM</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Irr\IRRLoader.h">
+      <Filter>AssetLib\IRR</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\LWO\LWOAnimation.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\LWO\LWOFileData.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\LWO\LWOLoader.h">
+      <Filter>AssetLib\LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\LWS\LWSLoader.h">
+      <Filter>AssetLib\LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\M3D\M3DMaterials.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\M3D\M3DImporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\M3D\M3DWrapper.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\M3D\m3d.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD2\MD2FileData.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD2\MD2Loader.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD2\MD2NormalTable.h">
+      <Filter>AssetLib\MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD3\MD3FileData.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD3\MD3Loader.h">
+      <Filter>AssetLib\MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD5\MD5Loader.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MD5\MD5Parser.h">
+      <Filter>AssetLib\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDC\MDCFileData.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDC\MDCLoader.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDC\MDCNormalTable.h">
+      <Filter>AssetLib\MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\MDLDefaultColorMap.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\MDLFileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\HalfLifeMDLBaseHeader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\HL1FileData.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\HL1MDLLoader.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\HL1ImportDefinitions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\HL1ImportSettings.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\HL1MeshTrivert.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\LogFunctions.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MDL\HalfLife\UniqueNameGenerator.h">
+      <Filter>AssetLib\MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\NFF\NFFLoader.h">
+      <Filter>AssetLib\NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\NDO\NDOLoader.h">
+      <Filter>AssetLib\NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\OFF\OFFLoader.h">
+      <Filter>AssetLib\OFF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjFileData.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjFileImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjFileMtlImporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjFileParser.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjTools.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreImporter.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreStructs.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreParsingUtils.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreBinarySerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ogre\OgreXmlSerializer.h">
+      <Filter>AssetLib\OGRE</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\OpenGEX\OpenGEXImporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\OpenGEX\OpenGEXStructs.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ply\PlyLoader.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ply\PlyParser.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MS3D\MS3DLoader.h">
+      <Filter>AssetLib\MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\COB\COBLoader.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\COB\COBScene.h">
+      <Filter>AssetLib\COB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderLoader.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderDNA.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderDNA.inl">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderScene.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderSceneGen.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderIntermediate.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderModifier.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderBMesh.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderTessellator.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Blender\BlenderCustomData.h">
+      <Filter>AssetLib\BLEND</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCLoader.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCReaderGen_2x3.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\IFC\IFCUtil.h">
+      <Filter>AssetLib\IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\XGL\XGLLoader.h">
+      <Filter>AssetLib\XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXCompileConfig.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXImporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXParser.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXTokenizer.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXImportSettings.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXConverter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXUtil.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXDocument.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXProperties.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXMeshGeometry.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXCommon.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Q3D\Q3DLoader.h">
+      <Filter>AssetLib\Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Q3BSP\Q3BSPFileData.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Q3BSP\Q3BSPFileParser.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Q3BSP\Q3BSPFileImporter.h">
+      <Filter>AssetLib\Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Raw\RawLoader.h">
+      <Filter>AssetLib\RAW</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\SIB\SIBImporter.h">
+      <Filter>AssetLib\SIB</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\SMD\SMDLoader.h">
+      <Filter>AssetLib\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\STL\STLLoader.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Terragen\TerragenLoader.h">
+      <Filter>AssetLib\TERRAGEN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Unreal\UnrealLoader.h">
+      <Filter>AssetLib\3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X\XFileHelper.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X\XFileImporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X\XFileParser.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Macro.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DImporter_Node.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DGeoHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DXmlHelper.h">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFCommon.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFAsset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFAsset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFAssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFAssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFImporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF2\glTF2Asset.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF2\glTF2Asset.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF2\glTF2AssetWriter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF2\glTF2AssetWriter.inl">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF2\glTF2Importer.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\3MFTypes.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\XmlSerializer.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\D3MFImporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\D3MFOpcPackage.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\3MFXmlTags.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MMD\MMDCpp14.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MMD\MMDImporter.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MMD\MMDPmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MMD\MMDPmxParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\MMD\MMDVmdParser.h">
+      <Filter>AssetLib\MMD</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Obj\ObjExporter.h">
+      <Filter>AssetLib\OBJ</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\OpenGEX\OpenGEXExporter.h">
+      <Filter>AssetLib\OPENGEX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Ply\PlyExporter.h">
+      <Filter>AssetLib\PLY</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3DS\3DSExporter.h">
+      <Filter>AssetLib\3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assbin\AssbinExporter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assbin\AssbinFileWriter.h">
+      <Filter>AssetLib\ASSBIN</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assxml\AssxmlExporter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assxml\AssxmlFileWriter.h">
+      <Filter>AssetLib\ASSXML</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\M3D\M3DExporter.h">
+      <Filter>AssetLib\M3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Collada\ColladaExporter.h">
+      <Filter>AssetLib\COLLADA</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXExporter.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXExportNode.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\FBX\FBXExportProperty.h">
+      <Filter>AssetLib\FBX</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\STL\STLExporter.h">
+      <Filter>AssetLib\STL</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X\XFileExporter.h">
+      <Filter>AssetLib\X</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\X3D\X3DExporter.hpp">
+      <Filter>AssetLib\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF\glTFExporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\glTF2\glTF2Exporter.h">
+      <Filter>AssetLib\GLTF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\3MF\D3MFExporter.h">
+      <Filter>AssetLib\3MF</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\Pbrt\PbrtExporter.h">
+      <Filter>AssetLib\PBRT</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assjson\cencode.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Assjson\mesh_splitter.h">
+      <Filter>AssetLib\ASSJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\AssetLib\Step\StepExporter.h">
+      <Filter>AssetLib\STEP</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\unzip\crypt.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\unzip\ioapi.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\unzip\unzip.h">
+      <Filter>Contrib\unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Contrib\Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\clipper\clipper.hpp">
+      <Filter>Contrib\Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParser.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\include\openddlparser\OpenDDLParserUtils.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\include\openddlparser\OpenDDLCommon.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\include\openddlparser\OpenDDLExport.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\include\openddlparser\OpenDDLStream.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\include\openddlparser\DDLNode.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\openddlparser\include\openddlparser\Value.h">
+      <Filter>Contrib\openddl_parser</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcAdjacencyInfo.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcArithmeticCodec.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcBinaryStream.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcCommon.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcDVEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcDynamicVectorDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcDynamicVectorEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcDynamicVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcFIFO.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcIndexedFaceSet.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcSC3DMCDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcSC3DMCEncodeParams.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcSC3DMCEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcTimer.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcTriangleFans.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcTriangleListDecoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcTriangleListEncoder.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcVector.h">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\Open3DGC\o3dgcVector.inl">
+      <Filter>Contrib\open3dgc</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zip\src\miniz.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zip\src\zip.h">
+      <Filter>ziplib</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\pugixml\src\pugiconfig.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\pugixml\src\pugixml.hpp">
+      <Filter>Contrib\Pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\stb\stb_image.h">
+      <Filter>Contrib\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\anim.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\aabb.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\ai_assert.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\camera.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\color4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\color4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\include\assimp\config.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\ColladaMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\commonMetaData.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\defs.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\cfileio.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\light.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\material.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\material.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\matrix3x3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\matrix3x3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\matrix4x4.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\matrix4x4.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\mesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\ObjMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\pbrmaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\GltfMaterial.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\postprocess.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\quaternion.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\quaternion.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\scene.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\metadata.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\texture.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\types.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\vector2.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\vector2.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\vector3.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\vector3.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\version.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\cimport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\AssertHandler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\importerdesc.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Importer.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\ProgressHandler.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\IOStream.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\IOSystem.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\cexport.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Exporter.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\DefaultIOStream.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\DefaultIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\ZipArchiveIOSystem.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\SceneCombiner.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\fast_atof.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\qnan.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\BaseImporter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Hash.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\MemoryIOWrapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\ParsingUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\StreamReader.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\StreamWriter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\StringComparison.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\StringUtils.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\SGSpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\GenericProperty.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\SpatialSort.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\SkeletonMeshBuilder.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\SmallVector.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\SmoothingGroups.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\SmoothingGroups.inl">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\StandardShapes.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\RemoveComments.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Subdivision.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Vertex.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\LineSplitter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\TinyFormatter.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Profiler.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\LogAux.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Bitmap.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\XMLTools.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\IOStreamBuffer.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\CreateAnimMesh.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\XmlParser.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\MathFunctions.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Exceptional.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\ByteSwapper.h">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Base64.hpp">
+      <Filter>include\assimp</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\Compiler\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code\res\assimp.rc">
+      <Filter>Source Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="AssetLib">
+      <UniqueIdentifier>{D2322951-01E3-3616-99E5-526B38FE5950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3D">
+      <UniqueIdentifier>{6A2EB6A0-220E-358C-99E6-7EF0D462770A}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3DS">
+      <UniqueIdentifier>{ADCBBEE2-0F81-3943-8A33-DBE6E0C31415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\3MF">
+      <UniqueIdentifier>{2A6E7186-118F-3E6F-A298-205E0FB76862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AC">
+      <UniqueIdentifier>{8722E74F-6339-3A7B-8499-065F5BE0A966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\AMF">
+      <UniqueIdentifier>{86D505C1-E7DD-3C06-855E-5F2A7C356EC1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASE">
+      <UniqueIdentifier>{FBB33888-5585-3330-AD05-1C9FB19BC29B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSBIN">
+      <UniqueIdentifier>{D713B7E5-78F0-3958-8C7D-0E895E8AE511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSJSON">
+      <UniqueIdentifier>{AA822092-17A8-3415-BB0B-71C46592FEA8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\ASSXML">
+      <UniqueIdentifier>{1848EB7D-3540-33A9-AC80-045CE62AB488}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\B3D">
+      <UniqueIdentifier>{8EA273DA-6307-3E71-8D84-65D99D178EA3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BLEND">
+      <UniqueIdentifier>{4891D76A-14AF-3E3A-97C5-9EF8DF23F274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\BVH">
+      <UniqueIdentifier>{A6A7347A-A9D9-30E6-87ED-FEDB6EECD9BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COB">
+      <UniqueIdentifier>{FBF9C864-D4E1-3379-8AC5-85C50BCF6176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\COLLADA">
+      <UniqueIdentifier>{5ADD5903-81CD-3787-947C-8167FA6ABB44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\CSM">
+      <UniqueIdentifier>{D68611C4-94FB-3542-B9BE-00E4C5E6CF1F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\DXF">
+      <UniqueIdentifier>{0C754C29-BECC-38B1-A359-A13151039DC0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\FBX">
+      <UniqueIdentifier>{9FCA4B10-0BC3-3438-B2C9-4A3441DDB99E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\GLTF">
+      <UniqueIdentifier>{E8D40534-33D8-374F-AE64-43F1585EAF37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\HMP">
+      <UniqueIdentifier>{1B3B798D-164F-3B00-A84F-C382CEDA198B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IFC">
+      <UniqueIdentifier>{A808B7D4-726C-3E50-B732-1D5E3CA0538C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IQM">
+      <UniqueIdentifier>{EEFA79E0-3558-3146-96D8-2031981BD531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRR">
+      <UniqueIdentifier>{6E3AE807-51C0-3DF1-8063-B676B20EBF8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\IRRMESH">
+      <UniqueIdentifier>{4F8DB2D0-6FD4-3D14-8A72-CC349C3C25CA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWO">
+      <UniqueIdentifier>{C6BD19F9-DA38-374B-82DF-B242383FCFFF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\LWS">
+      <UniqueIdentifier>{30693F7E-79B7-36E2-9831-3EC6DBBC166B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\M3D">
+      <UniqueIdentifier>{085AC7A6-C4DC-382F-B212-14BC25EA349F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD2">
+      <UniqueIdentifier>{5F7FB694-7FBD-3D45-9BB3-0BBBFC06BE91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD3">
+      <UniqueIdentifier>{92A0DA2D-03E2-3518-B348-7806B6414E36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MD5">
+      <UniqueIdentifier>{7EF0289B-C394-35AD-9CD5-2189048C4AD9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDC">
+      <UniqueIdentifier>{3AD85D42-79F4-372C-B4FC-D2085F713216}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MDL">
+      <UniqueIdentifier>{53AADB17-B53A-3126-992E-FB906126CDE8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MMD">
+      <UniqueIdentifier>{4963B18E-1B2E-3D8E-8A0B-AE4D31D70027}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\MS3D">
+      <UniqueIdentifier>{102969D1-1049-3713-A2A7-A5D74520AE17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NDO">
+      <UniqueIdentifier>{DD21E8FB-D43B-38C1-A9B8-56F667AF3666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\NFF">
+      <UniqueIdentifier>{B05A7944-86C8-301D-80BA-333BD0FAA282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OBJ">
+      <UniqueIdentifier>{41EE7DD0-EAB2-3A43-9578-1A439FDFD424}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OFF">
+      <UniqueIdentifier>{5CD5B9CD-CE6E-3570-A959-6C583344D5B3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OGRE">
+      <UniqueIdentifier>{C3098B5A-2A1D-34A5-8E97-B34A75822BEC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\OPENGEX">
+      <UniqueIdentifier>{CA6B99A1-4E02-366A-B7BC-0A6F3D6B4E6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PBRT">
+      <UniqueIdentifier>{B1B4819A-8EED-3EAD-AF2A-7EE644F52149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\PLY">
+      <UniqueIdentifier>{68C7B0A1-61C8-31BF-A9DE-EE88EB3CBA98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3BSP">
+      <UniqueIdentifier>{BE8477E0-3331-323D-B6C3-A671D0811B58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\Q3D">
+      <UniqueIdentifier>{5E1E4CAA-84A4-3059-8EA3-F472AF0404F5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\RAW">
+      <UniqueIdentifier>{AB92F749-6B10-3514-AFD3-A5D0B2537F0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SIB">
+      <UniqueIdentifier>{9F681275-E569-345B-8CFC-F453E5D3A751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\SMD">
+      <UniqueIdentifier>{D8A0D466-29D2-3331-B89B-C3DFFD435BE0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STEP">
+      <UniqueIdentifier>{7F32BDFE-56EB-331F-AF6B-E88DA49B9DB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\STL">
+      <UniqueIdentifier>{445738B8-3239-38C0-A663-F2B713DF6A78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\TERRAGEN">
+      <UniqueIdentifier>{A532C947-E933-3CDD-B3FD-643AFEE30D69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X">
+      <UniqueIdentifier>{30088624-CC49-3F50-AE4D-906667BD9EF2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\X3D">
+      <UniqueIdentifier>{F98AEEE8-A714-312C-80AD-3DA239EA3DA7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AssetLib\XGL">
+      <UniqueIdentifier>{9CD563B0-CCAD-39A2-BC95-3F3C10E720D9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CApi">
+      <UniqueIdentifier>{C662C4F2-7C74-3351-9735-34C93C3203C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{4B2F4843-12AA-31B6-8040-7ECAC7B34B2B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{8AC13E38-637E-3F81-9048-DE3F9546F913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib">
+      <UniqueIdentifier>{D5EC894E-F568-3AA1-96B1-AB37595A05FD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Clipper">
+      <UniqueIdentifier>{F09E07E1-D620-36C4-AD1A-0F2A8178C3E1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Poly2Tri">
+      <UniqueIdentifier>{D9A105F0-4151-3B10-B649-4AB3FE7146BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\Pugixml">
+      <UniqueIdentifier>{B3046720-CD5F-3A94-86F3-C01B6BEE778D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\open3dgc">
+      <UniqueIdentifier>{E308C80A-B92D-34BA-AC10-70C1D1BF9385}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\openddl_parser">
+      <UniqueIdentifier>{C5314CAD-B1E3-3E6D-9D0D-98D8106CB239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\stb">
+      <UniqueIdentifier>{73DABEC1-93F8-31D3-9987-7DF1A8DA593C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Contrib\unzip">
+      <UniqueIdentifier>{A1C1EC87-5D86-3F6E-8CEF-7243370125BF}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{19202C4C-7B14-37B5-9EEB-5CF53522A8AA}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Geometry">
+      <UniqueIdentifier>{5ECCE752-5C45-3819-8A45-F33D498A7D24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{E417881D-FECF-375C-BA42-FFC50603A5C9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{F50D15BC-77B8-33C5-ACB0-4F204F53FDB1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{D0C24E13-FA5D-3704-8DBB-C63E728DBD3D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STEPParser">
+      <UniqueIdentifier>{58944604-7CCD-34AA-BF23-E6A0EE993F63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{89DD812F-44BD-3F9A-BCF7-27277B2782AC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{10106551-3222-3498-8114-0DACA9BF46B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\assimp">
+      <UniqueIdentifier>{B36D0E02-64B8-380D-9812-36AD520FA2F8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ziplib">
+      <UniqueIdentifier>{27AEDD1D-9174-3ECA-94ED-86282CB67569}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
