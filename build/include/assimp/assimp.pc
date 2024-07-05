@@ -1,7 +1,7 @@
-libdir=C:/Program Files (x86)/tesoro_laberinto/lib
-includedir=C:/Program Files (x86)/tesoro_laberinto/include
+libdir=C:/Program Files (x86)/radio_silence/lib
+includedir=C:/Program Files (x86)/radio_silence/include
 
-Name: tesoro_laberinto
+Name: radio_silence
 Description: Import various well-known 3D model formats in an uniform manner.
 Version: 5.3.0
 Libs: -L${libdir} -lassimp

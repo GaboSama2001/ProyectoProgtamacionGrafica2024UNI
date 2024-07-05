@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\CMakeFiles\a242724820ddf932349376feabeee4fd\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\Loluo\source\repos\RadioSilence\build\CMakeFiles\e903866cfdd93ea78628167d507d81dc\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{AAB74D5C-0924-3784-AC30-FD2A5FB48321}</UniqueIdentifier>
+      <UniqueIdentifier>{51DA19D5-5824-3179-BA91-F7631ED2B35C}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

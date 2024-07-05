@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/contrib/zlib
+# Install script for directory: C:/Users/Loluo/source/repos/RadioSilence/include/assimp/contrib/zlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/tesoro_laberinto")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/radio_silence")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,13 +34,13 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/contrib/zlib/Debug/zlibstaticd.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/contrib/zlib/Debug/zlibstaticd.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/contrib/zlib/Release/zlibstatic.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/contrib/zlib/Release/zlibstatic.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/contrib/zlib/MinSizeRel/zlibstatic.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/contrib/zlib/MinSizeRel/zlibstatic.lib")
   elseif(CMAKE_INSTALL_CONFIG_NAME MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/contrib/zlib/RelWithDebInfo/zlibstatic.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/contrib/zlib/RelWithDebInfo/zlibstatic.lib")
   endif()
 endif()
 

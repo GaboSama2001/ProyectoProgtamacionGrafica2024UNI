@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/glfw/docs
+# Install script for directory: C:/Users/Loluo/source/repos/RadioSilence/include/glfw/docs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/tesoro_laberinto")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/radio_silence")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

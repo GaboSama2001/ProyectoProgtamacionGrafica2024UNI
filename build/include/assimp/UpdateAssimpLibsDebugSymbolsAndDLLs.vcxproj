@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
@@ -22,9 +22,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{007C880E-A93B-3561-AD05-8CC33AB1A6F0}</ProjectGuid>
+    <ProjectGuid>{41B75FA7-CACB-3B0E-ABCF-2715C893C71A}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
     <ProjectName>UpdateAssimpLibsDebugSymbolsAndDLLs</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
@@ -33,22 +33,22 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
-    <PlatformToolset>v143</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -66,7 +66,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\include;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\.;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\code;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\.;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -76,7 +76,7 @@
     <PostBuildEvent>
       <Message>							</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.dll" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/bin64/assimp-vc143-mt.dll"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.dll C:/Users/Loluo/source/repos/RadioSilence/include/assimp/bin64/assimp-vc142-mt.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -85,7 +85,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.exp" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mt.exp"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.exp C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mt.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -94,7 +94,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.lib" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mt.lib"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.lib C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mt.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -103,7 +103,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.dll" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/bin64/assimp-vc143-mtd.dll"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.dll C:/Users/Loluo/source/repos/RadioSilence/include/assimp/bin64/assimp-vc142-mtd.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -112,7 +112,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.exp" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.exp"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.exp C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -121,7 +121,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.ilk" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.ilk"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.ilk C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.ilk
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,7 +130,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.lib" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.lib"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.lib C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,7 +139,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.pdb" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.pdb"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.pdb C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.pdb
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -151,7 +151,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\include;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\.;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\code;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\.;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -161,7 +161,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>							</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.dll" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/bin64/assimp-vc143-mt.dll"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.dll C:/Users/Loluo/source/repos/RadioSilence/include/assimp/bin64/assimp-vc142-mt.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -170,7 +170,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.exp" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mt.exp"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.exp C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mt.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -179,7 +179,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.lib" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mt.lib"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.lib C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mt.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -188,7 +188,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.dll" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/bin64/assimp-vc143-mtd.dll"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.dll C:/Users/Loluo/source/repos/RadioSilence/include/assimp/bin64/assimp-vc142-mtd.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -197,7 +197,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.exp" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.exp"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.exp C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -206,7 +206,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.ilk" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.ilk"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.ilk C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.ilk
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -215,7 +215,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.lib" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.lib"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.lib C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,7 +224,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.pdb" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.pdb"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.pdb C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.pdb
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -236,7 +236,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\include;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\.;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\code;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\.;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -246,7 +246,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>							</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.dll" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/bin64/assimp-vc143-mt.dll"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.dll C:/Users/Loluo/source/repos/RadioSilence/include/assimp/bin64/assimp-vc142-mt.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -255,7 +255,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.exp" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mt.exp"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.exp C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mt.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -264,7 +264,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.lib" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mt.lib"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.lib C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mt.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -273,7 +273,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.dll" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/bin64/assimp-vc143-mtd.dll"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.dll C:/Users/Loluo/source/repos/RadioSilence/include/assimp/bin64/assimp-vc142-mtd.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -282,7 +282,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.exp" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.exp"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.exp C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -291,7 +291,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.ilk" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.ilk"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.ilk C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.ilk
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -300,7 +300,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.lib" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.lib"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.lib C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -309,7 +309,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.pdb" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.pdb"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.pdb C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.pdb
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -321,7 +321,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\include;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\code;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\.;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\contrib\zlib;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\code;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\.;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\contrib\zlib;C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\contrib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -331,7 +331,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message>							</Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.dll" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/bin64/assimp-vc143-mt.dll"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.dll C:/Users/Loluo/source/repos/RadioSilence/include/assimp/bin64/assimp-vc142-mt.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -340,7 +340,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.exp" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mt.exp"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.exp C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mt.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -349,7 +349,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Release/assimp-vc143-mt.lib" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mt.lib"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Release/assimp-vc142-mt.lib C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mt.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -358,7 +358,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.dll" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/bin64/assimp-vc143-mtd.dll"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.dll C:/Users/Loluo/source/repos/RadioSilence/include/assimp/bin64/assimp-vc142-mtd.dll
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -367,7 +367,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.exp" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.exp"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.exp C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.exp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -376,7 +376,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.ilk" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.ilk"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.ilk C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.ilk
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -385,7 +385,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.lib" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.lib"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.lib C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.lib
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -394,7 +394,7 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/code/Debug/assimp-vc143-mtd.pdb" "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/lib64/assimp-vc143-mtd.pdb"
+"C:\Program Files\CMake\bin\cmake.exe" -E copy C:/Users/Loluo/source/repos/RadioSilence/build/code/Debug/assimp-vc142-mtd.pdb C:/Users/Loluo/source/repos/RadioSilence/include/assimp/lib64/assimp-vc142-mtd.pdb
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -405,11 +405,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\CMakeLists.txt">
+    <CustomBuild Include="C:\Users\Loluo\source\repos\RadioSilence\include\assimp\CMakeLists.txt">
       <UseUtf8Encoding>Always</UseUtf8Encoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Loluo/source/repos/RadioSilence/include/assimp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI" "-BC:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build" --check-stamp-file "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/RadioSilence -BC:/Users/Loluo/source/repos/RadioSilence/build --check-stamp-file C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -417,12 +417,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\assimp.pc.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\config.h.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\assimp.pc.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include\assimp\config.h.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Loluo/source/repos/RadioSilence/include/assimp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI" "-BC:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build" --check-stamp-file "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/RadioSilence -BC:/Users/Loluo/source/repos/RadioSilence/build --check-stamp-file C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -430,12 +430,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\assimp.pc.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\config.h.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\assimp.pc.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include\assimp\config.h.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Loluo/source/repos/RadioSilence/include/assimp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI" "-BC:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build" --check-stamp-file "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/RadioSilence -BC:/Users/Loluo/source/repos/RadioSilence/build --check-stamp-file C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -443,12 +443,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\assimp.pc.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\config.h.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\assimp.pc.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include\assimp\config.h.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/include/assimp/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Loluo/source/repos/RadioSilence/include/assimp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI" "-BC:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build" --check-stamp-file "C:/Users/MSI GF65/source/repos/ProyectoProgtamacionGrafica2024UNI/build/include/assimp/CMakeFiles/generate.stamp"
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Loluo/source/repos/RadioSilence -BC:/Users/Loluo/source/repos/RadioSilence/build --check-stamp-file C:/Users/Loluo/source/repos/RadioSilence/build/include/assimp/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -456,16 +456,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\assimp.pc.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\include\assimp\config.h.in;C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\include\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.29\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.29\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckFunctionExists.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.29\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\assimp.pc.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\FindPkgMacros.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\PrecompiledHeader.cmake;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\cmake-modules\assimp-plain-config.cmake.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\include\assimp\config.h.in;C:\Users\Loluo\source\repos\RadioSilence\include\assimp\revision.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Loluo\source\repos\RadioSilence\build\include\assimp\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\ZERO_CHECK.vcxproj">
-      <Project>{65FED9CB-FAA4-3853-A8E5-E2F8A2DD6439}</Project>
+    <ProjectReference Include="C:\Users\Loluo\source\repos\RadioSilence\build\ZERO_CHECK.vcxproj">
+      <Project>{FD1A0ACC-3F4E-388D-8B79-528DE7E3EF50}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

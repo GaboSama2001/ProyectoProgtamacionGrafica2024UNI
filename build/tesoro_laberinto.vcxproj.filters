@@ -1,46 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\glad.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\formas.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\modelo.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\escena_juego.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\menu_escena.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\creditos.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\constructor.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\instrucciones.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\textura.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\miscelaneos.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
     <CustomBuild Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
       <UniqueIdentifier>{89DD812F-44BD-3F9A-BCF7-27277B2782AC}</UniqueIdentifier>
     </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\boton.hpp" />
+    <ClInclude Include="..\src\camara_ortografica.hpp" />
+    <ClInclude Include="..\src\camara3d.hpp" />
+    <ClInclude Include="..\src\cielo.hpp" />
+    <ClInclude Include="..\src\constructor.hpp" />
+    <ClInclude Include="..\src\contexto.hpp" />
+    <ClInclude Include="..\src\controlador_camara.hpp" />
+    <ClInclude Include="..\src\controlador_escena.hpp" />
+    <ClInclude Include="..\src\creditos.hpp" />
+    <ClInclude Include="..\src\enemigo.hpp" />
+    <ClInclude Include="..\src\escena_juego.hpp" />
+    <ClInclude Include="..\src\formas.hpp" />
+    <ClInclude Include="..\src\instrucciones.hpp" />
+    <ClInclude Include="..\src\jugador.hpp" />
+    <ClInclude Include="..\src\mapa.hpp" />
+    <ClInclude Include="..\src\menu_escena.hpp" />
+    <ClInclude Include="..\src\mesh.hpp" />
+    <ClInclude Include="..\src\miscelaneos.hpp" />
+    <ClInclude Include="..\src\modelo.hpp" />
+    <ClInclude Include="..\src\radio.hpp" />
+    <ClInclude Include="..\src\reloj.hpp" />
+    <ClInclude Include="..\src\respiracion.hpp" />
+    <ClInclude Include="..\src\shader.h" />
+    <ClInclude Include="..\src\sonido.hpp" />
+    <ClInclude Include="..\src\textura.hpp" />
+    <ClInclude Include="..\src\transformaciones.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\constructor.cpp" />
+    <ClCompile Include="..\src\creditos.cpp" />
+    <ClCompile Include="..\src\escena_juego.cpp" />
+    <ClCompile Include="..\src\formas.cpp" />
+    <ClCompile Include="..\src\glad.c" />
+    <ClCompile Include="..\src\instrucciones.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\menu_escena.cpp" />
+    <ClCompile Include="..\src\miscelaneos.cpp" />
+    <ClCompile Include="..\src\modelo.cpp" />
+    <ClCompile Include="..\src\textura.cpp" />
   </ItemGroup>
 </Project>

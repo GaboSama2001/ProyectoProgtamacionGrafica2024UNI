@@ -316,23 +316,51 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\glad.c" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\formas.cpp" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\modelo.cpp" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\main.cpp" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\escena_juego.cpp" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\menu_escena.cpp" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\creditos.cpp" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\constructor.cpp" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\instrucciones.cpp" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\textura.cpp" />
-    <ClCompile Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\src\miscelaneos.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="C:\Users\MSI GF65\source\repos\ProyectoProgtamacionGrafica2024UNI\build\include\assimp\code\assimp.vcxproj">
       <Project>{12165F62-16F1-3BD8-B141-A196326BD6B4}</Project>
       <Name>assimp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\boton.hpp" />
+    <ClInclude Include="..\src\camara3d.hpp" />
+    <ClInclude Include="..\src\camara_ortografica.hpp" />
+    <ClInclude Include="..\src\cielo.hpp" />
+    <ClInclude Include="..\src\constructor.hpp" />
+    <ClInclude Include="..\src\contexto.hpp" />
+    <ClInclude Include="..\src\controlador_camara.hpp" />
+    <ClInclude Include="..\src\controlador_escena.hpp" />
+    <ClInclude Include="..\src\creditos.hpp" />
+    <ClInclude Include="..\src\enemigo.hpp" />
+    <ClInclude Include="..\src\escena_juego.hpp" />
+    <ClInclude Include="..\src\formas.hpp" />
+    <ClInclude Include="..\src\instrucciones.hpp" />
+    <ClInclude Include="..\src\jugador.hpp" />
+    <ClInclude Include="..\src\mapa.hpp" />
+    <ClInclude Include="..\src\menu_escena.hpp" />
+    <ClInclude Include="..\src\mesh.hpp" />
+    <ClInclude Include="..\src\miscelaneos.hpp" />
+    <ClInclude Include="..\src\modelo.hpp" />
+    <ClInclude Include="..\src\radio.hpp" />
+    <ClInclude Include="..\src\reloj.hpp" />
+    <ClInclude Include="..\src\respiracion.hpp" />
+    <ClInclude Include="..\src\shader.h" />
+    <ClInclude Include="..\src\sonido.hpp" />
+    <ClInclude Include="..\src\textura.hpp" />
+    <ClInclude Include="..\src\transformaciones.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\constructor.cpp" />
+    <ClCompile Include="..\src\creditos.cpp" />
+    <ClCompile Include="..\src\escena_juego.cpp" />
+    <ClCompile Include="..\src\formas.cpp" />
+    <ClCompile Include="..\src\glad.c" />
+    <ClCompile Include="..\src\instrucciones.cpp" />
+    <ClCompile Include="..\src\main.cpp" />
+    <ClCompile Include="..\src\menu_escena.cpp" />
+    <ClCompile Include="..\src\miscelaneos.cpp" />
+    <ClCompile Include="..\src\modelo.cpp" />
+    <ClCompile Include="..\src\textura.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
